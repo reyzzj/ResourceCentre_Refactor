@@ -176,7 +176,7 @@ public class ResourceCentre {
 		int zoom = Helper.readInt("Enter optical zoom > ");
 
 		Camcorder cc= new Camcorder(tag, description, zoom);
-		return cc;
+		return cc; 
 		
 	}
 	public static void addCamcorder(ArrayList<Camcorder> camcorderList, Camcorder cc) {
